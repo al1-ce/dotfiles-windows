@@ -1,0 +1,104 @@
+ls
+cd /
+ls
+cd
+ls
+apt
+dub
+dmd
+ls
+ls YandexDisk
+ls
+ls -l YandexDisk
+cd YandexDisk\
+ls
+;;
+ll
+ls
+cd
+cd /g/
+cd G:/
+ls
+cd AtheOS\lib\
+cd..
+cd ..
+ls lib
+cd asdsadas
+pwd
+cd
+ls
+echo $nu.env-path
+vim
+vi
+winget install vim
+winget install vim.vim
+vim C:\Users\alice\AppData\Roaming\nushell\env.nu
+vi
+vim
+vim C:\Users\alice\AppData\Roaming\nushell\env.nu
+cd C:\Users\alice\AppData\Roaming\nushell
+ls
+vi config.nu
+vim config.nu
+touch nurc.nu
+ls
+vim nurc.nu
+souce config.nu
+source config.nu
+vi
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim | ni $HOME/vimfiles/autoload/plug.vim -Force
+iwr -useb https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim | ni %homepath%/vimfiles/autoload/plug.vim -Force
+vi
+cd G:/
+ls
+vi code-stype.cs
+vi code-style.cs
+for x in {0..8}; do for i in {30..37}; do for a in {40..47}; do echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "; done; echo; done; done; echo ""
+for x in {0..8}; do 
+    for i in {30..37}; do 
+        for a in {40..47}; do 
+            echo -ne "\e[$x;$i;$a""m\\\e[$x;$i;$a""m\e[0;37;40m "
+        done
+        echo
+    done
+done
+msgcat --color=test
+winget install colortest
+LS_COLORS
+vivid
+dircolors
+alias
+aliases
+edit-nurc
+edit-config
+edit-nurc
+edit-config
+srcrc
+edit-config 
+srcrc
+ls
+winget install --id Starship.Starship
+e
+edit-config 
+srcrc
+edit-envcon 
+starship
+scoop
+irm get.scoop.sh | iex
+neofetch
+edit-config 
+edit-envcon 
+srcrc
+npm install -g yarn
+yarn
+ipconf
+nuget
+nuget search dotnet
+echo $Env:Path
+$Env:Path
+echo $nu.path
+echo $nu.env-path
+dotnet --version
+echo $nu
+echo $nu.env-path
+cd %appdata%
