@@ -102,3 +102,69 @@ dotnet --version
 echo $nu
 echo $nu.env-path
 cd %appdata%
+mono -v
+dotnet -v
+dotnet --version
+nuget
+mono -v
+pacman -S mingw-w64-x86_64-mono
+cd G:\AnotherScript\
+.\bin\anotherscript.exe
+node
+git
+cd G:\AnotherScript\
+.\bin\anotherscript.exe
+node
+ls
+.\bin\ascript.exe
+adb
+adb devices
+adb shell pm grant com.fb.fluid android.permission.WRITE_SECURE_SETTINGS
+adb kill-server
+adb start-server
+adb devices
+adb shell pm grant com.fb.fluid android.permission.WRITE_SECURE_SETTINGS
+adb devices
+adb shell pm grant com.fb.fluid android.permission.WRITE_SECURE_SETTINGS
+adb stop-server
+adb kill-server
+adb start-server
+adb devices
+adb shell pm grant com.fb.fluid android.permission.WRITE_SECURE_SETTINGS
+adb shell settings put secure hide_navigationbar_enable 4
+adb shell pm grant com.fb.fluid android.permission.WRITE_SECURE_SETTINGS
+adb devices
+adb shell settings put secure hide_navigationbar_enable 4
+adb devices
+adb shell settings put global force_fsg_nav_bar 1
+touch adb-android-nonavbar.sh
+echo "adb shell settings put global force_fsg_nav_bar 1" > adb-android-nonavbar.sh
+ls adb-android-nonavbar.sh
+cat adb-android-nonavbar.sh
+vi adb-android-nonavbar.sh
+cd G:\AnotherScript\
+.\bin\ascript.exe
+dub remove arsd:terminal
+dub remove arsd-official:terminal
+.\bin\ascript.exe
+cls
+cd G:\AnotherScript\
+dub run --force
+dub run
+printf "\033[H" 
+hyper
+printf "\033[H" 
+hyper --help
+hyper list
+hyper remove hyper-cyberpunk
+printf "\033[H" 
+hyper list
+hyper-init
+hyper --help
+hyper home hyper-init
+hyper docs hyper-init
+which hyper
+ls ~
+grep
+whoami
+echo %username%
