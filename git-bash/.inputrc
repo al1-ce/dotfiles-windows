@@ -1,0 +1,7 @@
+"\e[1~": beginning-of-line
+"\e[4~": end-of-line
+
+mset completion-ignore-case On
+set completion-ignore-case On
+
+# copy to inputrc file

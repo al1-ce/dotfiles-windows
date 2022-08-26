@@ -10,3 +10,8 @@ cp /e/msys64/home/alice/.bash_aliases /g/dotfiles-windows/msys2/.bash_aliases
 
 # nushell
 cp -a /c/Users/alice/AppData/Roaming/nushell/. /g/dotfiles-windows/nushell
+
+# yasb
+cp -a ~/.yasb/*.* /g/dotfiles-windows/.yasb
+
+# komorebi

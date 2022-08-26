@@ -18,6 +18,14 @@ alias cp='cp -i'
 alias rm='rm -i'
 alias ln='ln -i'
 
+# ls
+alias la='ls -a'
+
+# hyper config
+alias hyper-config='code /c/Users/alice/AppData/Roaming/Hyper/.hyper.js'
+
+alias yasb='python ~/.yasb/yasb/src/main.py'
+
 git-ls () {
 	find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd {} && git rev-parse --is-inside-work-tree > /dev/null && echo -n '\e[1m' && echo -n {} && echo -n '\e[0m \e[91m' &&  git status --porcelain | awk '/[MD?]+ /{c++} END {print \"M: \", c}' && rm -f statusShort && echo -n '\e[0m'" \;
 }
@@ -26,4 +34,4 @@ alias python-server='python3 -m http.server 8080 --bind 127.0.0.1'
 alias node-server='http-server'
 
 clear
-neofetch
+# neofetch
