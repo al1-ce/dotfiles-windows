@@ -1,40 +1,40 @@
 -----------------------------------------------------------------------------------
-						    MAIN APPS
+                                   MAIN APPS
 -----------------------------------------------------------------------------------
 
 Hotkeys:
 
-AltDrag 		draggin windows with hotkey + mouse
-AHK 			(keyriha script) for main hotkeys (win + enter, win + q ...)
-Fluent Search	link hints
+AltDrag                 draggin windows with hotkey + mouse
+AHK                     (keyriha script) for main hotkeys (win + enter, win + q ...)
+Fluent Search           link hints
 
 Windows tweaks:
 
-rbtray		right button on minimise to tray
-Nilesoft Shell	right click context menu
-Modern Flyouts	nice notifications
+rbtray                  right button on minimise to tray
+Nilesoft Shell          right click context menu
+Modern Flyouts          nice notifications
 
 Linux feel:
 
-MyDockFinder	top bar
-PowerToys		powertools & rofi-like launch
-opti			nice image viewing
+MyDockFinder            top bar
+PowerToys               powertools & rofi-like launch
+opti                    minimal image viewer
 
 -----------------------------------------------------------------------------------
-						     NOT USED
+                                    NOT USED
 -----------------------------------------------------------------------------------
 
 Alt Launchers, mainly not used in favour of PowerToys:
 
-Keypirinha		rofi-like launch
-Fluent Search	win search launch
+Keypirinha              rofi-like launch
+Fluent Search           win search launch
 
 Other:
 
-Cairo Shell	alternative shell
-ExplorerPatcher	NICE WIN 10 ( https://github.com/valinet/ExplorerPatcher )
-TaskbarX		taskbar customization
-Komorebi		tiling wm
-Yasb			polybar
-Rainmeter		widgets
-Xoblite 		blackbox for win
+Cairo Shell             alternative shell
+ExplorerPatcher         NICE WIN 10 ( https://github.com/valinet/ExplorerPatcher )
+TaskbarX                taskbar customization
+Komorebi                tiling wm
+Yasb                    polybar
+Rainmeter               widgets
+Xoblite                 blackbox for win
