@@ -25,6 +25,9 @@ alias please='gsudo !!'
 # Add shell-option to ~/.inputrc to enable case-insensitive tab completion
 # echo 'set completion-ignore-case On' >> ~/.inputrc
 
+export HAXEPATH="/e/HaxeToolkit/haxe"
+export NEKO_INSTPATH="/e/HaxeToolkit/neko"
+export PATH=$HAXEPATH:$NEKO_INSTPATH:$PATH
 export PATH=~/.cargo/bin:$PATH
 # Set for no title
 echo -en "\033]0;⠀\a"

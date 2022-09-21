@@ -4,21 +4,24 @@
 
 Hotkeys:
 
-AltDrag                 draggin windows with hotkey + mouse
+AltDrag                 dragging windows with hotkey + mouse
 AHK                     (keyriha script) for main hotkeys (win + enter, win + q ...)
 Fluent Search           link hints
+AltTab Alternative      alternative to win alt tab with display in list
 
 Windows tweaks:
 
 rbtray                  right button on minimise to tray
 Nilesoft Shell          right click context menu
 Modern Flyouts          nice notifications
+Process Hacker          powerful task manager (https://processhacker.sourceforge.io)
 
 Linux feel:
 
 MyDockFinder            top bar
 PowerToys               powertools & rofi-like launch
 opti                    minimal image viewer
+gsudo                   sudo command for cli
 
 -----------------------------------------------------------------------------------
                                     NOT USED

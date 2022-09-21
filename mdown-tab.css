@@ -1,0 +1,49 @@
+html, body, :root {
+    background: #222;
+    font-family: 'Cascadia Mono PL';
+}
+
+.bar {
+    background: #222 !important;
+	height: 15px !important;
+	font-size: 12px !important;
+	color: #ffffff30 !important;
+	border-top: 1px solid #ffffff30 !important;
+}
+
+a {
+	color: #e36209 !important;
+}
+
+#lastEdited {
+	line-height: 15px !important;
+	border-left: 1px solid #ffffff30 !important;
+}
+
+#settings {
+	width: 15px !important;
+	border-color: #ffffff30 !important;
+}
+
+.button:hover {
+	outline: 1px solid #ffffff30 !important;
+}
+
+#settings > img {
+	width: 12px !important;
+	opacity: 0.3;
+}
+
+#edit > img {
+	opacity: 0.3;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge add Firefox */
+* {
+  -ms-overflow-style: none;
+  scrollbar-width: none; /* Firefox */
+}

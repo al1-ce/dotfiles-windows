@@ -12,6 +12,9 @@ alias srcrc='source ~/.bashrc'
 
 alias neofetch='neofetch --source ~/.dotfiles/.ascii_neofetch --colors 208 7 7 208 7 7 --ascii_colors 208'
 
+alias dhelp='~/.dotfiles/dhelp.exe'
+alias godot-init='~/.dotfiles/godot-project-init.sh'
+
 # CONFIRMATIONS
 alias mv='mv -i'
 alias cp='cp -i'
