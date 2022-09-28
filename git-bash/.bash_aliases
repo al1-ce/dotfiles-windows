@@ -29,7 +29,7 @@ alias hyper-config='code /c/Users/alice/AppData/Roaming/Hyper/.hyper.js'
 
 alias yasb='python ~/.yasb/yasb/src/main.py'
 
-alias scons='~/.dotfiles/scons/scons.bat'
+alias scons='~/scons/scons.bat'
 alias msys2='/e/msys64/msys2_shell.cmd -defterm -no-start -msys'
 
 git-ls () {
