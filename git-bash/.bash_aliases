@@ -39,7 +39,12 @@ git-ls () {
 backup () {
     git add .
     git commit -m "Updated: `date +'%Y-%m-%d'`"
-    git push origin master
+    if [[ $# -eq 0 ]]; then
+        git push origin master
+    else
+        git push origin $1
+    fi
+    
 }
 
 alias python-server='python3 -m http.server 8080 --bind 127.0.0.1'
