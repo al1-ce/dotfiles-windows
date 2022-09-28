@@ -29,6 +29,8 @@ export HAXEPATH="/e/HaxeToolkit/haxe"
 export NEKO_INSTPATH="/e/HaxeToolkit/neko"
 export PATH=$HAXEPATH:$NEKO_INSTPATH:$PATH
 export PATH=~/.cargo/bin:$PATH
+export PATH=/e/msys64/mingw64/bin:$PATH
+export PATH="/e/Program Files/CMake/bin":$PATH
 # Set for no title
 echo -en "\033]0;⠀\a"
 

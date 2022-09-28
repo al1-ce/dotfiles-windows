@@ -23,6 +23,13 @@ PowerToys               powertools & rofi-like launch
 opti                    minimal image viewer
 gsudo                   sudo command for cli
 
+Other apps:
+
+Groupy                  nicely group apps
+F3D                     simple 3d viewer
+MarkText                markdown editor
+PeaZip                  winrar alternative
+
 -----------------------------------------------------------------------------------
                                     NOT USED
 -----------------------------------------------------------------------------------

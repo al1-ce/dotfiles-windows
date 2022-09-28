@@ -14,4 +14,5 @@ cp -a /c/Users/alice/AppData/Roaming/nushell/. /g/dotfiles-windows/nushell
 # yasb
 cp -a ~/.yasb/*.* /g/dotfiles-windows/.yasb
 
-# komorebi
+# nile shell
+cp "/c/Program Files/Nilesoft/Shell/shell.shl" /g/dotfiles-windows/shell.shl
