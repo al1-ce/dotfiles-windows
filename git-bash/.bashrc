@@ -27,10 +27,25 @@ alias please='gsudo !!'
 
 export HAXEPATH="/e/HaxeToolkit/haxe"
 export NEKO_INSTPATH="/e/HaxeToolkit/neko"
+
+export CARGOPATH=~/.cargo/bin
+export CMAKEPATH="/e/Program Files/CMake/bin"
+
+export LDC2PATH=/e/dldc2/bin
+
+export DARTPATH=/e/dart-sdk/bin
+export DARTPUBPATH=/c/Users/alice/Appdata/Local/Pub/Cache/bin
+export FLUTTERPATH=/e/flutter/bin
+
 export PATH=$HAXEPATH:$NEKO_INSTPATH:$PATH
-export PATH=~/.cargo/bin:$PATH
-export PATH=/e/msys64/mingw64/bin:$PATH
-export PATH="/e/Program Files/CMake/bin":$PATH
+
+export PATH=$CARGOPATH:$PATH
+export PATH=$CMAKEPATH:$PATH
+
+export PATH=$LDC2PATH:$PATH
+
+export PATH=$DARTPATH:$DARTPUBPATH:$FLUTTERPATH:$PATH
+
 # Set for no title
 echo -en "\033]0;⠀\a"
 

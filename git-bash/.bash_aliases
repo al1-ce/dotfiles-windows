@@ -32,6 +32,14 @@ alias yasb='python ~/.yasb/yasb/src/main.py'
 alias scons='~/scons/scons.bat'
 alias msys2='/e/msys64/msys2_shell.cmd -defterm -no-start -msys'
 
+alias jspp='/e/jspp/jsppext.exe'
+alias js++=jspp
+alias jpp=jspp
+alias j++=jspp
+
+alias webdev=webdev.bat
+alias flutter=flutter.bat
+
 git-ls () {
 	find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd {} && git rev-parse --is-inside-work-tree > /dev/null && echo -n '\e[1m' && echo -n {} && echo -n '\e[0m \e[91m' &&  git status --porcelain | awk '/[MD?]+ /{c++} END {print \"M: \", c}' && rm -f statusShort && echo -n '\e[0m'" \;
 }

@@ -168,3 +168,15 @@ ls ~
 grep
 whoami
 echo %username%
+cd G:\godot-tbloader\
+ls
+scons
+pip install scons
+scons
+js++
+jspp
+JS++
+E:\jspp\js++.exe
+E:\jspp\js++.exe --help
+ldc
+ldc2

@@ -177,6 +177,7 @@ shell
 		menu(type='~taskbar' mode=multiple title='&Develop' sep=bottom image=\uE26E)
 		{
             item(title='VSCode' image=[\uE272, #22A7F2] cmd='code' args='"@sel.path"')
+            item(title='Sublime' image=[\uE249, #fe9800] cmd='E:\\Program Files\\Sublime Text\\sublime_text.exe' args='"@sel.path"')
             separator
 			item(title='Command Prompt@elevated' tip=["ELEVATED\nhold Shift key to run elevated", tip.danger] admin=@shift_pressed image cmd='cmd.exe' args='/K TITLE Command Prompt &ver& PUSHD "@sel.dir"')
 			item(title='Windows PowerShell@elevated' tip=["ELEVATED\nhold Shift key to run elevated", tip.danger] admin=@shift_pressed image command='powershell.exe' arguments='-noexit -command Set-Location -Path "@sel.dir\."')

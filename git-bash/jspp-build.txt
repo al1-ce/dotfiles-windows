@@ -1,0 +1,1 @@
+/e/jspp/js++.exe src/ -o js/app.js
