@@ -30,6 +30,7 @@ export NEKO_INSTPATH="/e/HaxeToolkit/neko"
 
 export CARGOPATH=~/.cargo/bin
 export CMAKEPATH="/e/Program Files/CMake/bin"
+export OPENSSLPATH="/e/Program Files/openssl/bin":"/e/Program Files/openssl/":"/e/Program Files/openssl/include/"
 
 export LDC2PATH=/e/dldc2/bin
 
@@ -37,14 +38,19 @@ export DARTPATH=/e/dart-sdk/bin
 export DARTPUBPATH=/c/Users/alice/Appdata/Local/Pub/Cache/bin
 export FLUTTERPATH=/e/flutter/bin
 
+export SWIGPATH=~/swig-4.0.2
+
 export PATH=$HAXEPATH:$NEKO_INSTPATH:$PATH
 
 export PATH=$CARGOPATH:$PATH
 export PATH=$CMAKEPATH:$PATH
+export PATH=$OPENSSLPATH:$PATH
 
 export PATH=$LDC2PATH:$PATH
 
 export PATH=$DARTPATH:$DARTPUBPATH:$FLUTTERPATH:$PATH
+
+export PATH=$SWIGPATH:$PATH
 
 # Set for no title
 echo -en "\033]0;⠀\a"

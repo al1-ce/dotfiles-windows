@@ -180,3 +180,8 @@ E:\jspp\js++.exe
 E:\jspp\js++.exe --help
 ldc
 ldc2
+cd miunlock
+pip install -r requirements.txt
+pip3 install -r requirements.txt
+python pip install -r requirements.txt
+python -m pip install -r requirements.txt
