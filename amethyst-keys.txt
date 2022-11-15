@@ -1,0 +1,18 @@
+https://learn.microsoft.com/en-us/dotnet/api/system.windows.input.key?view=windowsdesktop-7.0
+
+Modifiers:
+
+Win +     | Alt | Alt Shift | Alt Control | Shift | Shift Control | Control | Alt Shift Control |
+ 8           9        13           11         12          14           10             15
+
+Alt +     | Shift | Shift Control | Control |
+ 1            5           7            3
+
+Shift +   | Control |
+ 4             6
+
+Control + |
+ 2
+
+None + |
+ 0

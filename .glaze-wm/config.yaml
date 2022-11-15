@@ -1,0 +1,238 @@
+# https://github.com/lars-berger/GlazeWM
+
+gaps:
+  inner_gap: 16
+  outer_gap: 8
+
+# bar:
+#   height: 30
+#   position: "top"
+#   opacity: 1.0
+#   background: "#101010"
+#   foreground: "white"
+#   font_family: "Segoe UI"
+#   font_size: "13"
+#   padding: "1 6 1 6"
+#   components_left:
+#     - type: "workspaces"
+#       focused_workspace_background: "#8192B3"
+#       displayed_workspace_background: "#42403e"
+#       default_workspace_background: "#101010"
+#   components_right:
+#     - type: "clock"
+#       time_formatting: "hh:mm tt  ddd MMM d"
+
+bar: 
+  height: 0
+  position: "top"
+  opacity: 0.0
+
+workspaces:
+  - name: 1
+    display_name: "Web"
+    bind_to_monitor: 3
+  - name: 2
+    display_name: "Sys"
+    bind_to_monitor: 1
+  - name: 3
+    display_name: "Dev"
+    bind_to_monitor: 2
+
+# Available commands: 
+# layout <vertical | horizontal>
+# focus <left | right | up | down>
+# focus workspace <prev | next | recent>
+# focus workspace <workspace name>
+# move <left | right | up | down>
+# move to workspace <workspace name>
+# resize <height | width> <amount in px | amount in %> (eg. resize height 3% or resize width 20px)
+# resize borders <shorthand property> (eg. resize borders 0px -7px -7px -7px)
+# set <floating | minimized | maximized>
+# toggle <floating | maximized>
+# toggle focus mode
+# exit wm
+# reload config
+# close
+# exec <process name | path to executable>
+# ignore
+
+window_rules:
+  # EXAMPLE: 
+  # - command: "move to workspace 2"
+  #   # Process name to match exactly.
+  #   match_process_name: "chrome"
+  #   # Window title to match exactly.
+  #   match_title: "/.*/"
+  #   # Class name to match exactly.
+  #   match_class_name: "Chrome_WidgetWin_1"
+
+  # Task Manager requires admin privileges to manage and should be ignored unless running
+  # the WM as admin.
+  - command: "ignore"
+    match_process_name: "Taskmgr"
+  - command: "ignore"
+    match_process_name: "ProcessHacker"
+  - command: "ignore"
+    match_process_name: "cmd"
+  - command: "ignore"
+    match_process_name: "conhost"
+  - command: "ignore"
+    match_process_name: "mmc"
+
+  - command: "set floating"
+    match_process_name: "OpenConsole"
+  - command: "set floating"
+    match_process_name: "WindowsTerminal"
+  # - command: "set floating"
+  #   match_process_name: "Notepad"
+  - command: "set floating"
+    match_process_name: "Surfshark"
+  - command: "set floating"
+    match_process_name: "peazip"
+  - command: "set floating"
+    match_title: "/Vivaldi Settings: .*/"
+
+  # Launches system dialogs as floating by default (eg. File Explorer save/open dialog).
+  - command: "set floating"
+    match_class_name: "#32770"
+    
+  - command: "set floating"
+    match_process_name: "StreamDeck"
+
+  # Some applications (eg. Steam) have borders that extend past the normal border size.
+  - command: "resize borders 0px -7px -7px -7px"
+    match_process_name: "steam"
+  
+  - command: "resize borders 0px -7px -7px -7px"
+    match_process_name: "vivaldi"
+  
+  - command: "resize borders 0px -5px -5px -5px"
+    match_process_name: "explorer"
+
+  # Workspace specifics
+
+  - command: "move to workspace 2"
+    match_title: "/.*Visual Studio Code/"
+
+  - command: "move to workspace 1"
+    match_process_name: "vivaldi"
+
+  - command: "move to workspace 3"
+    match_process_name: "Y. Music"
+
+  - command: "move to workspace 3"
+    match_process_name: "Discord"
+
+keybindings:
+  # Shift focus in a given direction.
+  # - command: "focus left"
+    # bindings: ["LWin+H", "LWin+Left"]
+  #   binding: "LWin+Alt+Control+Shift+Left"
+  # - command: "focus right"
+  #   binding: "LWin+Alt+Control+Shift+Right"
+  #   bindings: ["LWin+L", "LWin+Right"]
+  # - command: "focus up"
+  #   binding: "LWin+Alt+Control+Shift+Up"
+  #   bindings: ["LWin+K", "LWin+Up"]
+  # - command: "focus down"
+  #   binding: "LWin+Alt+Control+Shift+Down"
+  #   bindings: ["LWin+J", "LWin+Down"]
+
+  # Move focused window in a given direction.
+  - command: "move left"
+    bindings: ["LWin+Shift+H", "LWin+Shift+Left"]
+  - command: "move right"
+    bindings: ["LWin+Shift+L", "LWin+Shift+Right"]
+  - command: "move up"
+    bindings: ["LWin+Shift+K", "LWin+Shift+Up"]
+  - command: "move down"
+    bindings: ["LWin+Shift+J", "LWin+Shift+Down"]
+
+  # Resize focused window by a percentage or pixel amount.
+  - command: "resize width -2%"
+    binding: "LWin+Control+Right"
+  - command: "resize width +2%"
+    binding: "LWin+Control+Left"
+  - command: "resize height +2%"
+    binding: "LWin+Control+Up"
+  - command: "resize height -2%"
+    binding: "LWin+Control+Down"
+
+  # Change layout direction to be either horizontal or vertical.
+  # - command: "layout horizontal"
+  #   binding: "LWin+Alt+Shift+X"
+  # - command: "layout vertical"
+  #   binding: "LWin+Shift+X"
+
+  # Change focus between floating / tiling windows.
+  # - command: "toggle focus mode"
+  #   binding: "Alt+Space"
+
+  # Change the focused window to be floating / tiling.
+  - command: "toggle floating"
+    binding: "F20"
+
+  # Change the focused window to be maximized / unmaximized.
+  # - command: "toggle maximized"
+  #   binding: "Alt+X"
+
+  # Minimize focused window.
+  # - command: "set minimized"
+  #   binding: "Alt+M"
+
+  # Close focused window.
+  # - command: "close"
+  #   binding: "Alt+Shift+Q"
+
+  # Kill GlazeWM process safely.
+  - command: "exit wm"
+    binding: "LWin+Alt+Control+Q"
+
+  # Re-evaluate configuration file.
+  - command: "reload config"
+    binding: "LWin+Alt+Control+R"
+
+  # Launch CMD terminal (alternatively `exec wt` or `exec %ProgramFiles%/Git/git-bash.exe`
+  # to start Windows Terminal and Git Bash respectively.
+  # - command: "exec cmd"
+  #   binding: "Alt+Enter"
+
+  # Change focus to a workspace defined in `workspaces` config.
+  # - command: "focus workspace 1"
+  #   binding: "LWin+Alt+Control+1"
+  # - command: "focus workspace 2"
+  #   binding: "LWin+Alt+Control+2"
+  # - command: "focus workspace 3"
+  #   binding: "LWin+Alt+Control+3"
+  # - command: "focus workspace 4"
+  #   binding: "LWin+Alt+Control+4"
+  # - command: "focus workspace 5"
+  #   binding: "LWin+Alt+Control+5"
+  # - command: "focus workspace 6"
+  #   binding: "LWin+Alt+Control+6"
+  # - command: "focus workspace 7"
+  #   binding: "LWin+Alt+Control+7"
+  # - command: "focus workspace 8"
+  #   binding: "LWin+Alt+Control+8"
+  # - command: "focus workspace 9"
+  #   binding: "LWin+Alt+Control+9"
+
+  # Move focused window to a workspace defined in `workspaces` config.
+  - commands: ["move to workspace 1", "focus workspace 1"]
+    binding: "LWin+Shift+1"
+  - commands: ["move to workspace 2", "focus workspace 2"]
+    binding: "LWin+Shift+2"
+  - commands: ["move to workspace 3", "focus workspace 3"]
+    binding: "LWin+Shift+3"
+  # - commands: ["move to workspace 4", "focus workspace 4"]
+  #   binding: "LWin+Alt+Control+Shift+4"
+  # - commands: ["move to workspace 5", "focus workspace 5"]
+  #   binding: "LWin+Alt+Control+Shift+5"
+  # - commands: ["move to workspace 6", "focus workspace 6"]
+  #   binding: "LWin+Alt+Control+Shift+6"
+  # - commands: ["move to workspace 7", "focus workspace 7"]
+  #   binding: "LWin+Alt+Control+Shift+7"
+  # - commands: ["move to workspace 8", "focus workspace 8"]
+  #   binding: "LWin+Alt+Control+Shift+8"
+  # - commands: ["move to workspace 9", "focus workspace 9"]
+  #   binding: "LWin+Alt+Control+Shift+9"

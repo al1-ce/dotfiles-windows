@@ -40,6 +40,8 @@ export FLUTTERPATH=/e/flutter/bin
 
 export SWIGPATH=~/swig-4.0.2
 
+export MAKENSISPATH="/e/Program Files (x86)/NSIS/"
+
 export PATH=$HAXEPATH:$NEKO_INSTPATH:$PATH
 
 export PATH=$CARGOPATH:$PATH

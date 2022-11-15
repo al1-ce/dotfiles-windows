@@ -15,6 +15,7 @@ rbtray                  right button on minimise to tray
 Nilesoft Shell          right click context menu
 Modern Flyouts          nice notifications
 Process Hacker          powerful task manager (https://processhacker.sourceforge.io)
+LittleBigMouse          dpi aware multi-monitor mouse daemon
 
 Linux feel:
 
@@ -22,6 +23,8 @@ MyDockFinder            top bar
 PowerToys               powertools & rofi-like launch
 opti                    minimal image viewer
 gsudo                   sudo command for cli
+glazewm                 tiling wm (https://github.com/lars-berger/GlazeWM)
+blackbox xoblite        nice desktop menus
 
 Other apps:
 
@@ -29,6 +32,8 @@ Groupy                  nicely group apps
 F3D                     simple 3d viewer
 MarkText                markdown editor
 PeaZip                  winrar alternative
+Dophamine               audio player
+Xoblite                 blackbox for win
 
 -----------------------------------------------------------------------------------
                                     NOT USED
@@ -38,13 +43,34 @@ Alt Launchers, mainly not used in favour of PowerToys:
 
 Keypirinha              rofi-like launch
 Fluent Search           win search launch
+Launchy                 customisable rofi-like launch
 
 Other:
 
-Cairo Shell             alternative shell
-ExplorerPatcher         NICE WIN 10 ( https://github.com/valinet/ExplorerPatcher )
+ExplorerPatcher         nice WIN 10 ( https://github.com/valinet/ExplorerPatcher )
 TaskbarX                taskbar customization
 Komorebi                tiling wm
 Yasb                    polybar
 Rainmeter               widgets
-Xoblite                 blackbox for win
+voidtools everything    file search?
+
+Alternative shells:
+
+Cairo Shell             dead
+Classic Shell           dead
+Emerge Desktop          dead
+Sharpenviro             dead
+LiteStep                dead
+Talisman Desktop        dead
+AstonShell              dead
+BlackBox                dead (https://xoblite.net/docs/links.html)
+BlackBox Xoblite        alive
+
+Tiling window managers:
+
+Amethyst                works poorly
+Fences                  no win keys
+Nog                     works awfull
+Workspacer              crashes
+Komorebi                doesn't work
+Glaze                   best one

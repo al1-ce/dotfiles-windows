@@ -12,7 +12,10 @@ cp /e/msys64/home/alice/.bash_aliases /g/dotfiles-windows/msys2/.bash_aliases
 cp -a /c/Users/alice/AppData/Roaming/nushell/. /g/dotfiles-windows/nushell
 
 # yasb
-cp -a ~/.yasb/*.* /g/dotfiles-windows/.yasb
+# cp -a ~/.yasb/*.* /g/dotfiles-windows/.yasb
 
 # nile shell
 cp "/c/Program Files/Nilesoft/Shell/shell.shl" /g/dotfiles-windows/shell.shl
+
+# glazewm
+cp ~/.glaze-wm/*.* /g/dotfiles-windows/.glaze-wm

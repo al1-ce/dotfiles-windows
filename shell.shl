@@ -95,6 +95,7 @@ shell
 		item(find='Run as a different user|nvidia' parent=@id.more_options.title)
 		item(find='Open with visual studio' parent=@id.more_options.title)
 		item(find='open powershell|open linux shell' parent=@id.more_options.title)
+		item(find='open lapce' parent=@id.more_options.title)
         
 
 		item(where=this.id==id.more_options image=@icon.more_options sep=both pos=bottom)
